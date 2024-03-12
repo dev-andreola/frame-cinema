@@ -9,7 +9,7 @@ export default function MenuItem({ title, address, Icon }) {
         className="flex items-center justify-center gap-1 hover:text-sky-500"
       >
         <Icon className="text-2xl" />
-        <h3 className="uppercase text-sm">{title}</h3>
+        <h3 className="uppercase text-sm hidden sm:inline">{title}</h3>
       </Link>
     </div>
   );
