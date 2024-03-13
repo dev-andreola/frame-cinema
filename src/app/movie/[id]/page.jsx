@@ -12,8 +12,15 @@ export default async function MoviePage({ params }) {
   const movie = await res.json();
 
   return (
-    <div className="w-full">
-      <div className="p-4 md:pt-8 flex flex-col md:flex-row items-center md:items-start max-w-6xl mx-auto md:space-x-6">
+    <div className="relative w-full">
+      {/* Banner de fundo */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(to bottom, transparent, rgba(55, 65, 81, 0.8)), url('https://image.tmdb.org/t/p/original/${movie.backdrop_path}')`,
+        }}
+      ></div>
+      <div className="p-4 md:pt-8 flex flex-col md:flex-row items-center md:items-start max-w-6xl mx-auto md:space-x-6 relative z-10">
         <Image
           src={`https://image.tmdb.org/t/p/original/${
             movie.poster_path || movie.backdrop_path
@@ -23,7 +30,7 @@ export default async function MoviePage({ params }) {
           className="rounded-lg mb-4 md:mb-0"
           style={{ maxWidth: "100%", height: "100%" }}
         ></Image>
-        <div className="p-2">
+        <div className="bg-black bg-opacity-50 backdrop-filter backdrop-blur-md rounded-lg p-4">
           <h2 className="text-3xl mb-3 font-bold">
             {movie.title || movie.name}
           </h2>
