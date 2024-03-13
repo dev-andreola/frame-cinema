@@ -18,8 +18,8 @@ export default function Header() {
         <ThemeSwitch />
       </div>
       <div className="flex gap-8">
-        <MenuItem title="home" address="/" Icon={AiFillHome} />
-        <MenuItem title="about" address="/about" Icon={BsFillInfoCircleFill} />
+        <MenuItem title="início" address="/" Icon={AiFillHome} />
+        <MenuItem title="sobre" address="/about" Icon={BsFillInfoCircleFill} />
       </div>
     </div>
   );
