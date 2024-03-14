@@ -30,7 +30,7 @@ export default async function MoviePage({ params }) {
           className="rounded-lg mb-4 md:mb-0"
           style={{ maxWidth: "100%", height: "100%" }}
         ></Image>
-        <div className="bg-black bg-opacity-50 backdrop-filter backdrop-blur-md rounded-lg p-4">
+        <div className="bg-opacity-50 backdrop-filter backdrop-blur-md rounded-lg p-4 bg-white dark:bg-black dark:bg-opacity-50">
           <h2 className="text-3xl mb-3 font-bold">
             {movie.title || movie.name}
           </h2>
