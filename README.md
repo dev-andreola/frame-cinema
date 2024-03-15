@@ -4,9 +4,9 @@
 
 ## Overview
 
-Projeto de desenvolvimento web em que a ideia era criar um app que exibe dados de qualquer filme pesquisado. O site totalmente responsivo possui botão de troca de tema, filtros por categoria e uma barra de pesquisa.
+Web development project in which the idea was to create an app that displays data from any searched film. The fully responsive website has a theme switch button, category filters and a search bar.
 
-Nesse projeto utilizei a API grátis do TMDB (https://www.themoviedb.org/)
+In this project I used the free TMDB API (https://www.themoviedb.org/)
 
 Still in the development process...
 
