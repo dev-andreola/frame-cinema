@@ -20,7 +20,7 @@ export default function Card({ result }) {
         <div className="p-2 max-w-lg">
           <p className="line-clamp-2 text-md">{result.overview}</p>
           <h2 className="text-lg font-bold truncate">
-            {result.title || result.name}
+            {result.title || result.original_title}
           </h2>
           <div className="flex items-center">
             <p>{result.release_date || result.first_air_date}</p>
