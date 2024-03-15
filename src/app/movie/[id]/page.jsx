@@ -27,6 +27,7 @@ export default async function MoviePage({ params }) {
           }`}
           width={500}
           height={300}
+          alt="Movie Poster"
           className="rounded-lg mb-4 mt-12 md:mb-0"
           style={{ maxWidth: "100%", height: "100%" }}
         ></Image>
