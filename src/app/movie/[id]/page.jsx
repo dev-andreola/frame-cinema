@@ -15,7 +15,7 @@ export default async function MoviePage({ params }) {
     <div className="relative w-full">
       {/* Banner de fundo */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-50"
         style={{
           backgroundImage: `linear-gradient(to bottom, transparent, rgba(55, 65, 81, 0.8)), url('https://image.tmdb.org/t/p/original/${movie.backdrop_path}')`,
         }}
