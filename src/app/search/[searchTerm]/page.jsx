@@ -17,8 +17,9 @@ export default async function SearchPage({ params }) {
   return (
     <div>
       {results && results.length === 0 && (
-        <h2 className="text-center text-lg pt-6">Nenhum filme encontrado!</h2>
+        <h2 className="text-center text-lg pt-24">Nenhum filme encontrado!</h2>
       )}
+
       {results && <Results results={results} />}
     </div>
   );
