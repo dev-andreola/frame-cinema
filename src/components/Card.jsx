@@ -15,6 +15,7 @@ export default function Card({ result }) {
           }`}
           width={500}
           height={300}
+          alt="Movie Poster"
           className="sm:rounded-t-lg mx-auto group-hover:opacity-75 transition-opacity duration-300"
         ></Image>
         <div className="p-2 max-w-lg">
