@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="max-w-6xl mx-auto p-6 space-y-4">
+    <div className="max-w-6xl mx-auto p-6 mt-16 space-y-4">
       <h1 className="text-2xl font-medium text-sky-600">Sobre</h1>
       <p>
         Bem-vindo ao nosso site de banco de dados de filmes! Somos uma equipe de
